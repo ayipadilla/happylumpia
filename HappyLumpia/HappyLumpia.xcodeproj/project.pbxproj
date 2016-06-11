@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262EFEB01D0B9D640072106A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EFEAF1D0B9D640072106A /* main.m */; };
+		262EFEB31D0B9D640072106A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EFEB21D0B9D640072106A /* AppDelegate.m */; };
+		262EFEB61D0B9D640072106A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EFEB51D0B9D640072106A /* ViewController.m */; };
+		262EFEB91D0B9D640072106A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262EFEB71D0B9D640072106A /* Main.storyboard */; };
+		262EFEBB1D0B9D640072106A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262EFEBA1D0B9D640072106A /* Assets.xcassets */; };
+		262EFEBE1D0B9D640072106A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262EFEBC1D0B9D640072106A /* LaunchScreen.storyboard */; };
+		262EFEC91D0B9D640072106A /* HappyLumpiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EFEC81D0B9D640072106A /* HappyLumpiaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262EFEC51D0B9D640072106A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 262EFEA31D0B9D640072106A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262EFEAA1D0B9D640072106A;
+			remoteInfo = HappyLumpia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262EFEAB1D0B9D640072106A /* HappyLumpia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyLumpia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262EFEAF1D0B9D640072106A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		262EFEB11D0B9D640072106A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		262EFEB21D0B9D640072106A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		262EFEB41D0B9D640072106A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		262EFEB51D0B9D640072106A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		262EFEB81D0B9D640072106A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		262EFEBA1D0B9D640072106A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262EFEBD1D0B9D640072106A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		262EFEBF1D0B9D640072106A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262EFEC41D0B9D640072106A /* HappyLumpiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyLumpiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		262EFEC81D0B9D640072106A /* HappyLumpiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyLumpiaTests.m; sourceTree = "<group>"; };
+		262EFECA1D0B9D640072106A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262EFEA81D0B9D640072106A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262EFEC11D0B9D640072106A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262EFEA21D0B9D640072106A = {
+			isa = PBXGroup;
+			children = (
+				262EFEAD1D0B9D640072106A /* HappyLumpia */,
+				262EFEC71D0B9D640072106A /* HappyLumpiaTests */,
+				262EFEAC1D0B9D640072106A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262EFEAC1D0B9D640072106A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262EFEAB1D0B9D640072106A /* HappyLumpia.app */,
+				262EFEC41D0B9D640072106A /* HappyLumpiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262EFEAD1D0B9D640072106A /* HappyLumpia */ = {
+			isa = PBXGroup;
+			children = (
+				262EFEB11D0B9D640072106A /* AppDelegate.h */,
+				262EFEB21D0B9D640072106A /* AppDelegate.m */,
+				262EFEB41D0B9D640072106A /* ViewController.h */,
+				262EFEB51D0B9D640072106A /* ViewController.m */,
+				262EFEB71D0B9D640072106A /* Main.storyboard */,
+				262EFEBA1D0B9D640072106A /* Assets.xcassets */,
+				262EFEBC1D0B9D640072106A /* LaunchScreen.storyboard */,
+				262EFEBF1D0B9D640072106A /* Info.plist */,
+				262EFEAE1D0B9D640072106A /* Supporting Files */,
+			);
+			path = HappyLumpia;
+			sourceTree = "<group>";
+		};
+		262EFEAE1D0B9D640072106A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				262EFEAF1D0B9D640072106A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		262EFEC71D0B9D640072106A /* HappyLumpiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				262EFEC81D0B9D640072106A /* HappyLumpiaTests.m */,
+				262EFECA1D0B9D640072106A /* Info.plist */,
+			);
+			path = HappyLumpiaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262EFEAA1D0B9D640072106A /* HappyLumpia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262EFECD1D0B9D640072106A /* Build configuration list for PBXNativeTarget "HappyLumpia" */;
+			buildPhases = (
+				262EFEA71D0B9D640072106A /* Sources */,
+				262EFEA81D0B9D640072106A /* Frameworks */,
+				262EFEA91D0B9D640072106A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyLumpia;
+			productName = HappyLumpia;
+			productReference = 262EFEAB1D0B9D640072106A /* HappyLumpia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262EFEC31D0B9D640072106A /* HappyLumpiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262EFED01D0B9D640072106A /* Build configuration list for PBXNativeTarget "HappyLumpiaTests" */;
+			buildPhases = (
+				262EFEC01D0B9D640072106A /* Sources */,
+				262EFEC11D0B9D640072106A /* Frameworks */,
+				262EFEC21D0B9D640072106A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262EFEC61D0B9D640072106A /* PBXTargetDependency */,
+			);
+			name = HappyLumpiaTests;
+			productName = HappyLumpiaTests;
+			productReference = 262EFEC41D0B9D640072106A /* HappyLumpiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262EFEA31D0B9D640072106A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Patuti;
+				TargetAttributes = {
+					262EFEAA1D0B9D640072106A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					262EFEC31D0B9D640072106A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 262EFEAA1D0B9D640072106A;
+					};
+				};
+			};
+			buildConfigurationList = 262EFEA61D0B9D640072106A /* Build configuration list for PBXProject "HappyLumpia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262EFEA21D0B9D640072106A;
+			productRefGroup = 262EFEAC1D0B9D640072106A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262EFEAA1D0B9D640072106A /* HappyLumpia */,
+				262EFEC31D0B9D640072106A /* HappyLumpiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262EFEA91D0B9D640072106A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262EFEBE1D0B9D640072106A /* LaunchScreen.storyboard in Resources */,
+				262EFEBB1D0B9D640072106A /* Assets.xcassets in Resources */,
+				262EFEB91D0B9D640072106A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262EFEC21D0B9D640072106A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262EFEA71D0B9D640072106A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262EFEB61D0B9D640072106A /* ViewController.m in Sources */,
+				262EFEB31D0B9D640072106A /* AppDelegate.m in Sources */,
+				262EFEB01D0B9D640072106A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262EFEC01D0B9D640072106A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262EFEC91D0B9D640072106A /* HappyLumpiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262EFEC61D0B9D640072106A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262EFEAA1D0B9D640072106A /* HappyLumpia */;
+			targetProxy = 262EFEC51D0B9D640072106A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		262EFEB71D0B9D640072106A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262EFEB81D0B9D640072106A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		262EFEBC1D0B9D640072106A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262EFEBD1D0B9D640072106A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262EFECB1D0B9D640072106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		262EFECC1D0B9D640072106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		262EFECE1D0B9D640072106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyLumpia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patuti.happylumpia.HappyLumpia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		262EFECF1D0B9D640072106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyLumpia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patuti.happylumpia.HappyLumpia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		262EFED11D0B9D640072106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyLumpiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patuti.happylumpia.HappyLumpiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyLumpia.app/HappyLumpia";
+			};
+			name = Debug;
+		};
+		262EFED21D0B9D640072106A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HappyLumpiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patuti.happylumpia.HappyLumpiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyLumpia.app/HappyLumpia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262EFEA61D0B9D640072106A /* Build configuration list for PBXProject "HappyLumpia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262EFECB1D0B9D640072106A /* Debug */,
+				262EFECC1D0B9D640072106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262EFECD1D0B9D640072106A /* Build configuration list for PBXNativeTarget "HappyLumpia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262EFECE1D0B9D640072106A /* Debug */,
+				262EFECF1D0B9D640072106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		262EFED01D0B9D640072106A /* Build configuration list for PBXNativeTarget "HappyLumpiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262EFED11D0B9D640072106A /* Debug */,
+				262EFED21D0B9D640072106A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262EFEA31D0B9D640072106A /* Project object */;
+}
